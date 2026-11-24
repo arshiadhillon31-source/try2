@@ -1,0 +1,55 @@
+FREELANCE FLOW - TEAM RESPONSIBILITY DIVISION
+(Updated exactly according to the latest team screenshot)
+
+MEMBER 1
+- Navigation Bar
+- Hero Banner
+- Get Started Button
+- Complete Opportunity Tracker:
+  - Tracker heading and section layout
+  - Proposal table and proposal display
+  - Table actions (such as changing status and deleting entries)
+- Quick Tip
+
+Main responsibility:
+Build the navigation and hero area, plus the complete proposal tracker display
+and its table actions. Search and filter controls are assigned to Member 2.
+
+MEMBER 2
+- Dashboard Section
+- Total Opportunities
+- Proposals Sent
+- Search & Filter
+- Footer
+
+Main responsibility:
+Build the dashboard section and the Total Opportunities and Proposals Sent
+statistics, implement proposal search and filtering, and build the footer.
+
+MEMBER 3
+- Won Projects
+- Estimated Value
+- Add Proposal Form
+- Follow-up Reminders
+
+Main responsibility:
+Build the Won Projects and Estimated Value statistics, the proposal form
+(including validation and adding proposals), and the follow-up reminders.
+
+HTML, CSS AND JAVASCRIPT
+Every member must contribute to all three: HTML, CSS and JavaScript, within
+their assigned components/features. Do not divide the work by programming
+language.
+
+SHARED INTEGRATION FILES - ALL MEMBERS
+- index.html
+- shared/base.css
+- shared/data.js
+- js/app.js
+- js/dashboard.js
+- assets/hero.png
+
+Coordinate before changing shared data structures, component-loading paths,
+or main application integration. The tracker table and search/filter controls
+are separate responsibilities, so agree on the interface between them:
+Member 1 owns the table display/actions; Member 2 owns search/filter behavior.

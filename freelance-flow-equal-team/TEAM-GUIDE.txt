@@ -1,0 +1,51 @@
+FREELANCE FLOW - COMPONENTIZED PROJECT GUIDE
+
+PROJECT STRUCTURE
+- index.html: main page and component mount points
+- components/: independent website components; each component has .html, .css and .js
+- shared/base.css: common page styles
+- shared/data.js: shared proposal data/state
+- js/app.js: loads components and coordinates the application
+- js/dashboard.js: dashboard statistic calculations
+- assets/hero.png: hero image
+- TEAM-DIVISION.txt: latest team responsibility split
+
+LATEST TEAM DIVISION
+Member 1:
+- Navigation Bar
+- Hero Banner
+- Get Started Button
+- Complete Opportunity Tracker (heading, layout, proposal table and table actions)
+- Quick Tip
+
+Member 2:
+- Dashboard Section
+- Total Opportunities
+- Proposals Sent
+- Search & Filter
+- Footer
+
+Member 3:
+- Won Projects
+- Estimated Value
+- Add Proposal Form
+- Follow-up Reminders
+
+TEAM WORK RULES
+1. Every member must work on HTML, CSS and JavaScript for their assigned features.
+2. Work inside your assigned component folders unless the team agrees otherwise.
+3. Do not create separate competing copies of shared/data.js or js/app.js.
+4. Coordinate the interface between Member 1's tracker table/actions and
+   Member 2's search/filter controls.
+5. Coordinate any changes to shared proposal data with all team members.
+6. Test assigned components individually, then test the complete website together.
+
+HOW TO RUN
+1. Extract the ZIP.
+2. Open the extracted project folder in Visual Studio Code.
+3. Start the page using the Live Server extension (right-click index.html > Open with Live Server).
+4. Keep the folder structure unchanged so component paths continue to work.
+
+IMPORTANT
+The component HTML files are loaded by JavaScript. Run the project through
+Live Server rather than opening index.html directly with a file:// URL.
